@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Markup</title>
+    <link href="css/styles.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+    <link href="fonts/font-awesome-4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="bower_components/jquery-bar-rating/dist/themes/fontawesome-stars.css">
+
+
+</head>
+<body>
+    <div class="wrapper">
+    <header>
+        <div class="nav1">
+        <nav class="menu_1">
+            <ul>
+            <li><a href="#">КАТАЛОГ</a> </li>
+            <li><a href="#">О НАС</a> </li>
+            <li><a href="#">ОПЛАТА И ДОСТАВКА</a> </li>
+            <li><a href="#">ОТЗЫВЫ</a> </li>
+            </ul>
+        </nav>
+                    <div class="search">
+                       <span class="icon"><i class="fa fa-search"></i></span>
+                        <label>
+                            <input class="formwidth" type="text"/>
+                        </label>
+                    </div>
+
+            <a href="#" id="entrance">ВОЙТИ</a>
+            <a href="#" id="heart"><i class="fa fa-heart" aria-hidden="true"></i></a>
+            <a href="#" id="shopbag"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+        </div>
+
+        <nav class="menu_2">
+            <ul>
+            <li><a href="#">Платья</a> </li>
+            <li><a href="#">Обувь</a> </li>
+            <li><a href="#">Аксессуары</a> </li>
+            <li><a href="#">Все бренды</a> </li>
+            <li><a href="#">Распродажа</a> </li>
+            </ul>
+        </nav>
+        <div class="branch">
+            <a href="#">Главная /</a>
+            <a href="#">Платья /</a>
+            <span>Длинные платья /</span>
+        </div>
+    </header>
+        <main>
+            <div class="leftblock">
+                <img src="images/template_03.png" alt=""/>
+                <img src="images/template_08.png" alt=""/>
+                <img src="images/template_11.png" alt=""/>
+            </div>
+            <div class="imghome">
+                <img src="images/mainImg.png" alt=""/>
+            </div>
+         <form class="buyblock">
+            <div class="description">
+                <a class="name" href="#">SHERRY HILL DREAM</a>
+                <div class="price">985 грн</div>
+                <div class="checkmark">
+                    <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+                    <span class="stok">В наличии</span>
+                </div>
+                    <table>
+                        <tr>
+                            <th>Материал:</th><td>Гипюр</td>
+                        </tr>
+                        <tr>
+                            <th>Параметры модели:</th><td>89/60/89</td>
+                        </tr>
+                        <tr>
+                            <th>Длинна:</th><td>117</td>
+                        </tr>
+                        <tr>
+                            <th>Рукав:</th><td>24</td>
+                        </tr>
+                    </table>
+                <a class="tablesize" href="#">
+                    <img src="images/size.png" height="14" width="28" alt=""/><span>таблица размеров</span>
+                </a>
+                <form class="size">
+                    <p>Размер</p>
+                    <div class="sizeinput">
+                        <input type="radio" id="radio1" name="radio" /><label for="radio1">S</label>
+                        <input type="radio" id="radio2" name="radio" /><label for="radio2">XS</label>
+                        <input type="radio" id="radio3" name="radio" /><label for="radio3">L</label>
+                        <input type="radio" id="radio4" name="radio" /><label for="radio4">XL</label>
+                    </div>
+                </form>
+                <form class="colordress">
+                    <p>Цвет:</p>
+                    <div  class="colorinput">
+                    <input type="radio" id="radio5" name="radio" /><label for="radio5" id="firstcolor"></label>
+                    <input type="radio" id="radio6" name="radio" /><label for="radio6" id="lastcolor"></label>
+                    </div>
+                </form>
+                <p class="textDescription">Элегантное платье в пол, выполнено в комбинации  видов текстиля стрейч-шифон и ажур. Высокая отрезная линия талии, фигурный вырез, выделена линия декольте.
+                </p>
+                <form class="numberP">
+                    <p>Количество</p>
+                    <div  class="numberPieces">
+                        <input type="radio" id="radio7" name="radio" /><label for="radio7">-</label>
+                        <input type="radio" id="radio8" name="radio" /><label for="radio8">+</label>
+                    </div>
+                </form>
+                <input type="button" id="inBasket" name="inBasket" value="Добавить в корзину" />
+
+
+                        <h4 id="mainLi">Способы оплаты:</h4>
+                <ul class="paymentMethods">
+                        <li>карта Visa, MasterCard;</li>
+                        <li>безналичная валюта;</li>
+                        <li>наличная валюта.</li>
+                    </ul>
+            </div>
+         </form>
+
+
+            <div class="b-carousel"> <!-- контейнер, в котором будет карусель -->
+                <div class="carousel-text">Другие цвета платья:</div>
+                <div class="b-carousel-button-right"><i class="fa fa-angle-right" aria-hidden="true"></i></div> <!-- правая кнопка -->
+                <div class="b-carousel-button-left"><i class="fa fa-angle-left" aria-hidden="true"></i></div> <!-- левая кнопка -->
+
+
+                <div class="h-carousel-wrapper"> <!-- видимая область карусели -->
+                    <div class="h-carousel-items"> <!-- весь набор элементов карусели -->
+
+                        <div class="b-carousel-block"> <!-- первый элемент карусели -->
+                            <a href="#" class="a-carousel-image-link">
+                                <img src="images/template_15.png" alt="" />
+                            </a>
+                        </div>
+
+                        <div class="b-carousel-block">
+                            <a href="#" class="a-carousel-image-link">
+                                <img src="images/template_17.png" alt="" />
+                            </a>
+                        </div>
+
+                        <div class="b-carousel-block">
+                            <a href="#" class="a-carousel-image-link">
+                                <img src="images/template_19.png" alt="" />
+                            </a>
+                        </div>
+
+                        <div class="b-carousel-block">
+                            <a href="#" class="a-carousel-image-link">
+                                <img src="images/template_15.png" alt="" />
+                            </a>
+                        </div>
+
+                        <div class="b-carousel-block"> <!-- последний элемент карусели -->
+                            <a href="#" class="a-carousel-image-link">
+                                <img src="images/template_17.png" alt="" />
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="b-carousel2"> <!-- контейнер, в котором будет карусель -->
+                <div class="carousel-text">Акссесуары к платью:</div>
+                <div class="b-carousel-button-right2"><i class="fa fa-angle-right" aria-hidden="true"></i></div> <!-- правая кнопка -->
+                <div class="b-carousel-button-left2"><i class="fa fa-angle-left" aria-hidden="true"></i></div> <!-- левая кнопка -->
+
+
+                <div class="h-carousel-wrapper"> <!-- видимая область карусели -->
+                    <div class="h-carousel-items2"> <!-- весь набор элементов карусели -->
+
+                        <div class="b-carousel-block2"> <!-- первый элемент карусели -->
+                            <a href="#" class="a-carousel-image-link">
+                                <img src="images/template_21.png" alt="" />
+                            </a>
+                        </div>
+
+                        <div class="b-carousel-block2">
+                            <a href="#" class="a-carousel-image-link">
+                                <img src="images/template_23.png" alt="" />
+                            </a>
+                        </div>
+
+                        <div class="b-carousel-block2">
+                            <a href="#" class="a-carousel-image-link">
+                                <img src="images/template_25.png" alt="" />
+                            </a>
+                        </div>
+
+                        <div class="b-carousel-block2">
+                            <a href="#" class="a-carousel-image-link">
+                                <img src="images/template_21.png" alt="" />
+                            </a>
+                        </div>
+
+                        <div class="b-carousel-block2"> <!-- последний элемент карусели -->
+                            <a href="#" class="a-carousel-image-link">
+                                <img src="images/template_23.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="b-carousel-block2"> <!-- последний элемент карусели -->
+                            <a href="#" class="a-carousel-image-link">
+                                <img src="images/template_25.png" alt="" />
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+<div class="comments">
+    <h1 class="commentHead"><a href="#">Отзывы(36)</a></h1>
+    <div class="comment">
+            <p class="nameComet">Ирина Сазанова<span class="dayComet">(2 дня назад)</span></p>
+    <select id="example">
+        <option value=""></option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+    </select>
+        <p class="textcomment">Платье шикарное, доставили в сроки как и написано в разделе “ доставка” , размер подошел . Платье красивое , буду заказывать еще у вас платья  на вечер и уверена точно не одно </p>
+    </div>
+
+    <div class="comment">
+        <p class="nameComet">Мария Орлова<span class="dayComet">(4 дня назад)</span></p>
+
+    <select id="example2">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+    </select>
+        <p class="textcomment">Нашла платье себе на День Рождение, пришло очень быстро . По скольку  из-за работы мало времени то забрать на почте платья не было времени , радует что есть “ доставка курьером ”. Все супер , спасибо большое </p>
+    </div>
+
+    <div class="comment">
+            <p class="nameComet">Катя Темнякова<span class="dayComet">(3 дня назад)</span></p>
+        <select id="example3">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+            <p class="textcomment">Радует большой каталог , множество разных платьев . Доставили быстро , размер подошел идеально . Приветливость курьера очень порадовала . Желаю  вам много покупателей , буду заказывать еще</p>
+        </div>
+       <h3 class="commentFeedback"><a href='#'>Оставить отзыв      <i class="fa fa-angle-right" aria-hidden="true"></i></a></h3>
+</div>
+
+          <section class="whyWe">
+              <h2 class="whyWeHeader">Почему именно мы?</h2>
+              <article>
+
+                <h5>Бесплатная доставка</h5>
+                  <img src="images/FreeShipping.png" height="35" width="50" alt=""/>
+                  <p class="textWhyWe">Бесплатная доставка по всей  Украине при покупке от 750 гривен </p>
+              </article>
+
+              <article>
+                <h5>Оплата в момент доставки</h5>
+                  <img src="images/Wallet.png" height="43" width="42" alt=""/>
+                  <p class="textWhyWe">Предоплата не требуется , вы оплачиваете  момент доставки вашего товара </p>
+              </article>
+
+              <article>
+                <h5>Качество товара</h5>
+                  <img src="images/Dress.png" height="47" width="30" alt=""/>
+                  <p class="textWhyWe">Вы можете проверить качество данного заказа и только потом оплатить его </p>
+              </article>
+
+              <article>
+                <h5>До 30 дней возврат</h5>
+                  <img src="images/Refund.png" height="48" width="48" alt=""/>
+                  <p class="textWhyWe">Вы всегда можете вернуть товар который не подошел и мы поменяем размер </p>
+              </article>
+          </section>
+
+            <div class="b-carousel3"> <!-- контейнер, в котором будет карусель -->
+                <div class="carousel-text3"><a href="#" id="recentlyViewed">Недавно просматривали  <i class="fa fa-eye" aria-hidden="true"></i></a> </div>
+                <div class="b-carousel-button-right3"><i class="fa fa-angle-right" aria-hidden="true"></i></div> <!-- правая кнопка -->
+                <div class="b-carousel-button-left3"><i class="fa fa-angle-left" aria-hidden="true"></i></div> <!-- левая кнопка -->
+
+
+                <div class="h-carousel-wrapper3"> <!-- видимая область карусели -->
+                    <div class="h-carousel-items3"> <!-- весь набор элементов карусели -->
+
+                        <div class="b-carousel-block3"> <!-- первый элемент карусели -->
+                            <div  class="a-carousel-image-link3">
+                                <img src="images/template_33.png" alt="" />
+                                <p class="priceCarousel3">1 350</p><span>грн</span>
+                                <a href="#" class="inBasketBuy"><i class="fa fa-shopping-basket" aria-hidden="true"></i>  купить</a>
+                                <p class="descriptionPrice">Легкое летнее платье. Изделие без рукавов. Спереди оригинальная накатка, сзади низ удлинен. Рост модели на фото: 168 см.</p>
+
+                            </div>
+                        </div>
+
+                        <div class="b-carousel-block3">
+                            <div  class="a-carousel-image-link3">
+                                <img src="images/template_35.png" alt="" />
+                                <p class="priceOld">1 308 грн</p>
+                                <p class="priceCarousel3">1 250</p><span>грн</span>
+                                <a href="#" class="inBasketBuy"><i class="fa fa-shopping-basket" aria-hidden="true"></i>  купить</a>
+                                <p class="descriptionPrice">Женское модное платье в полоску выполнено из легкого шифона. Круглый вырез, без рукава, прямого силуэта. Размер модели на фото XS</p>
+                            </div>
+                        </div>
+
+                        <div class="b-carousel-block3">
+                            <div  class="a-carousel-image-link3">
+                                <img src="images/template_37.png" alt="" />
+                                <p class="priceCarousel3">1 100</p><span>грн</span>
+                                <a href="#" class="inBasketBuy"><i class="fa fa-shopping-basket" aria-hidden="true"></i>  купить</a>
+                                <p class="descriptionPrice">Женское летнее платье выполнено из натурального текстиля «прошва». Спущенные плечи, украшены воланами, прямой силуэт.</p>
+                            </div>
+                        </div>
+
+                        <div class="b-carousel-block3">
+                            <div  class="a-carousel-image-link3">
+                                <img src="images/template_33.png" alt="" />
+                                <p class="priceCarousel3">1 350</p><span>грн</span>
+                                <a href="#" class="inBasketBuy"><i class="fa fa-shopping-basket" aria-hidden="true"></i>  купить</a>
+                                <p class="descriptionPrice">Легкое летнее платье. Изделие без рукавов. Спереди оригинальная накатка, сзади низ удлинен. Рост модели на фото: 168 см.</p>
+                            </div>
+                        </div>
+
+                        <div class="b-carousel-block3"> <!-- последний элемент карусели -->
+                            <div  class="a-carousel-image-link3">
+                                <img src="images/template_35.png" alt="" />
+                                <p class="priceOld">1 308 грн</p>
+                                <p class="priceCarousel3">1 250</p><span>грн</span>
+                                <a href="#" class="inBasketBuy"><i class="fa fa-shopping-basket" aria-hidden="true"></i>  купить</a>
+                                <p class="descriptionPrice">Женское модное платье в полоску выполнено из легкого шифона. Круглый вырез, без рукава, прямого силуэта. Размер модели на фото XS</p>
+                            </div>
+                        </div>
+                        <div class="b-carousel-block3"> <!-- последний элемент карусели -->
+                            <div class="a-carousel-image-link3">
+                                <img src="images/template_37.png" alt="" />
+                                <p class="priceCarousel3">1 100</p><span>грн</span>
+                                <a href="#" class="inBasketBuy"><i class="fa fa-shopping-basket" aria-hidden="true"></i>  купить</a>
+                                <p class="descriptionPrice">Женское летнее платье выполнено из натурального текстиля «прошва». Спущенные плечи, украшены воланами, прямой силуэт.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <hr>
+        </main>
+
+    <footer>
+        <div class="nav1">
+            <nav class="menu_1">
+                <ul>
+                    <li><a href="#">КАТАЛОГ</a> </li>
+                    <li><a href="#">О НАС</a> </li>
+                    <li><a href="#">ОПЛАТА И ДОСТАВКА</a> </li>
+                    <li><a href="#">ОТЗЫВЫ</a> </li>
+                    <li><a href="#">ЛИЧНЫЙ КАБИНЕТ</a> </li>
+                </ul>
+            </nav>
+        </div>
+            <div class="brandFooter">
+                <img src="images/template_48.png" alt=" "/>
+                <img src="images/template_43.png" alt=" "/>
+                <img src="images/template_45.png" alt=" "/>
+            </div>
+        <div class="footerContact">
+            <p class="footerContactText">Мы находимся <br>г.Харьков<br>ул.Валентиновская 7</p>
+            <div class="footerContactText">
+                Присоединяйтесь к нам в соц сетях
+                <div class="socialNetwork">
+                    <a href="https://vk.com"><i class="fa fa-vk" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="https://facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <p class="footerContactText">Наши контакты: <br>+380734642733<br>+380975318825<br> INFO@LOGO.UA</p>
+        </div>
+    </footer>
+    </div>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/jquery-bar-rating/jquery.barrating.js"></script>
+    <script src="js/gallery1.js"></script>
+    <script src="js/gallery2.js"></script>
+    <script src="js/gallery3.js"></script>
+    <script src="js/index.js"></script>
+
+
+
+
+
+</body>
+</html>

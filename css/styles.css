@@ -1,0 +1,610 @@
+html {font-size: 10px  }
+body *{
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 30px 0 30px;
+}
+main{
+    width: 1170px;
+}
+.wrapper{
+    width: 1170px;
+    margin: 0;
+    display: inline-block;
+}
+.search{
+    position: relative;
+    color: #999292;
+    top: -1rem;
+    padding:0 0.5rem 0 2.5rem;
+}
+
+.search input{
+    width: 28.5rem;
+    height: 3rem;
+
+}
+.menu_1 li{
+    padding-top: 5.2rem;
+    float: left;
+    display: inline-block;
+    margin: 0;
+}
+.menu_1 a,#shopbag,#entrance{
+    font-family: Roboto , sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #030303;
+    text-decoration: none;
+    transition:0.1s;
+}
+.menu_1 {
+     overflow: hidden;
+     width: 50rem;
+
+ }
+.menu_1 ul{
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-between;
+}
+
+.menu_1 a:hover,#entrance:hover{
+    font-size: 1.9rem;
+    font-weight: 500;
+}
+.search .icon{
+    font-size: 1.8rem;
+    position: absolute;
+    margin-left: 24.2rem;
+    color: #999292;
+    padding-top: 0.5rem;
+}
+
+/*
+.menu_1 ul{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: nowrap;
+    padding-bottom: 3rem;
+}*/
+#heart i{
+    color: #f53942;
+    font-size: 2.5rem;
+}
+#shopbag i{
+    font-size: 2.5rem;
+}
+#entrance,.search{
+    padding-top: 5rem;
+}
+#shopbag,#heart{
+    padding-top: 4.8rem;
+}
+#shopbag{
+    margin-right: 0;
+    margin-left: 2rem;
+}
+.nav1{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: nowrap;
+}
+
+main{
+    overflow: hidden;
+    padding: 0 1rem 0 1rem;
+}
+.menu_2 ul li{
+    display: inline-block;
+    padding-top: 3.2rem;
+    padding-left: 3.5rem;
+}
+.menu_2 ul a{
+    font-family: Roboto , sans-serif;
+    font-size: 1.8rem;
+    color: #999292;
+    text-decoration: none;
+}
+.menu_2 a:hover{
+    box-shadow: 0 0 5px rgba(112, 111, 108, 0.6);
+    border-radius: 10px;
+}
+.menu_2 a:active{
+    box-shadow:inset 0 0 5px rgba(112, 111, 108, 0.6);
+    border-radius: 10px;
+}
+
+.menu_2 ul{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: nowrap;
+    padding-bottom: 2rem;
+}
+.branch{
+    font-family: Roboto , sans-serif;
+    font-size: 1.6rem;
+    color: #999292;
+    float: left;
+    padding-left: 2rem;
+}
+.branch a{
+    text-decoration: none;
+    color: #999292;
+}
+.leftblock{
+    clear: both;
+    width: 19rem;
+    float: left;
+    height: 67.5rem;
+    padding-right:1rem;
+}
+.leftblock img{
+    padding: 0.5rem 0.5rem 1.5rem 0;
+}
+.imghome{
+    width: 47.5rem;
+    float: left;
+}
+.imghome img{
+    padding: 0.5rem 1rem ;
+}
+.description{
+    float: left;
+    text-align: left;
+    padding: 1rem;
+}
+.name{
+    font-weight: 400;
+    font-size: 2.4rem;
+    text-decoration: none;
+    color: #030303;
+}
+.price{
+    font-size: 3.2rem;
+    font-weight: 500;
+    color: #f5b039;
+    padding: 0.5rem 0 0.5rem 0.5rem;
+
+}
+.checkmark{
+    font-size: 1.85rem;
+    font-weight: 100;
+    color: #d73e1b;
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+}
+table{
+    padding-top: 1rem;
+    margin: 0;
+    padding-bottom: 2rem;
+}
+th{
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding: 0 1.5rem 0.8rem 0;
+}
+td{
+    font-size: 1.8rem;
+    font-weight: 100;
+    text-align: center;
+    padding: 0 1.5rem 0.8rem 1rem;
+    color: #999292;
+}
+.tablesize{
+    font-size: 1.6rem;
+    font-weight: 100;
+    color: #030303;
+    text-decoration: none;
+    width: 100%;
+}
+.tablesize span{
+    padding-left:1.3rem;
+}
+.tablesize:hover{
+    background-image: url("../images/8714edc03e7242daacda121f281030e3.png");
+    position: absolute;
+    width: 301px;
+    height: 121px;
+}
+.size{
+    font-size: 1.6rem;
+    text-align: left;
+    padding-top: 3rem;
+}
+.size p,.colordress p{
+    float: left;
+}
+.sizeinput{
+    clear: both;
+    width: 75px;
+    overflow: hidden;
+    margin: 0;
+    float: left;
+}
+
+
+.sizeinput label,.colorinput label,.numberPieces label{
+    padding-top: 0.3rem;
+    text-align: center;
+    width: 2.7rem;
+    height: 2.7rem;
+    margin: 0.5rem 1rem 0.5rem 0;
+    font-size: 1.6rem;
+    color: #030303;
+    border: 1px solid #999292;
+    float: left;
+
+}
+.sizeinput input,.numberPieces input{
+    display: none;
+    margin: 2rem
+}
+.sizeinput input:checked + label,.numberPieces input:active + label{
+    background-color: #f5b039;
+    border: 1px solid #d73e1b;
+    box-shadow: inset 0 0 10px rgba(252,13,5,0.7);
+}
+.sizecolor{
+    clear: both;
+    width: 75px;
+    overflow: hidden;
+    margin: 0;
+    float: left;
+}
+.colordress{
+    padding-left: 20px;
+    font-size: 1.6rem;
+    text-align: left;
+    display: inline-block;
+}
+.colorinput{
+    clear: both;
+}
+#firstcolor{
+    background-color: #ffcccc;
+}
+#lastcolor{
+    background-color: #ccccff;
+}
+.colorinput input{display: none;margin: 2rem}
+.colorinput input:checked + label{
+    border: 1px solid #d73e1b;
+    box-shadow: inset 0 0 10px rgba(252,13,5,0.7);
+}
+.textDescription{
+    font-family: Roboto , sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    clear: both;
+    width: 450px;
+    padding-top: 1.5rem;
+    line-height: 25px;
+}
+.numberP{
+    font-size: 1.6rem;
+    text-align: left;
+    padding-top: 1.5rem;
+
+}
+.numberPieces{
+    display: inline-block;
+    padding-top: 5px;
+}
+#inBasket{
+    background-color: #f5b039;
+    color: #ffffff;
+    border: none;
+    height: 65px;
+    width: 240px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    clear: both;
+    margin-top: 28px;
+    float: left;
+    cursor: pointer;
+}
+#inBasket:active{
+    background-color: #f0a40f;
+    box-shadow: inset 0 0 10px rgba(255,255,255,0.8);
+}
+.paymentMethods{
+    overflow: hidden;
+    padding-left: 45px;
+    padding-top: 10px;
+    display: block;
+    margin: 0;
+}
+
+.paymentMethods li{
+    color: #a6a39f;
+    font-size: 12px;
+    line-height: 20px;
+}
+#mainLi{
+     color: #030303;
+     font-size: 16px;
+    text-align: right;
+    padding-right: 40px;
+ }
+.carousel-text{
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color:#a6a39f;
+    display: inline-block;
+    padding: 25px 0 20px 10px;
+}
+
+.b-carousel ,.b-carousel2 {
+    width: 570px;
+    float: left;
+    box-sizing: border-box;
+}
+.h-carousel-wrapper {
+    width: 600px;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+}
+.h-carousel-items,.h-carousel-items2 {
+    width: 10000px; /* устанавливаем большую ширину для набора элементов карусели, чтобы в неё всё поместилось */
+    position: relative; /* позиционируем блок относительно основной области карусели */
+}
+.b-carousel-block,.b-carousel-block2 {
+    float: left; /* выстраиваем все элементы карусели в ряд */
+    width: 200px; /* задаём ширину каждого элемента */
+
+}
+.a-carousel-image-link { /* тут чисто оформление содержимого */
+    display: block;
+    width: 180px;
+   height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+.b-carousel-button-left, .b-carousel-button-right,.b-carousel-button-left2, .b-carousel-button-right2 {
+    float: right;
+    font-size: 40px;
+    color: #f5b039;
+    position: relative;
+    padding:15px 20px 0 0;
+    cursor: pointer; /* делаем кнопкам курсор в виде "пальца" */
+}
+.nameComet{
+    float: left;
+    font-size: 19px;
+    width: 350px;
+    text-align: left;
+}
+.dayComet{
+    font-size: 12px;
+    color: #a6a39f;
+    padding: 5px 0 0 7px;
+}
+.comments{
+    width: 45%;
+    float: left;
+    padding-left: 10px;
+}
+.textcomment{
+    font-size: 14px;
+    color: #8f8c86;
+    text-align: justify;
+    line-height: 25px;
+    font-weight: 400;
+    padding-top: 15px;
+}
+.commentHead{
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+    margin: 55px 0 45px 0;
+
+}
+.commentHead a{
+    color: #8f8c86;
+}
+.comment{
+    margin-bottom: 80px;
+}
+.commentFeedback{
+    text-align: left;
+}
+.commentFeedback a{
+    font-size: 18px;
+    color: #8f8c86;
+    font-weight: 500;
+
+}
+.commentFeedback i{
+      font-size: 20px;
+  }
+
+
+.whyWe{
+   float: right;
+    width: 40.2%;
+}
+.whyWe img{
+    float: left;
+}
+.whyWeHeader{
+    font-size: 24px;
+    font-weight: 400;
+    margin: 50px 0 75px 0;
+    color: #8f8c86;
+}
+h5{
+    color: #f5b039;
+    font-size: 21px;
+    text-align: left;
+    padding-left: 75px;
+}
+
+.textWhyWe{
+    font-size: 14px;
+    color: #8f8c86;
+    line-height: 25px;
+    text-align: left;
+    padding-left: 75px;
+}
+article{
+    margin-bottom: 65px;
+}
+
+
+
+.b-carousel3 {
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+}
+.h-carousel-wrapper3 {
+    clear: both;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+}
+.h-carousel-items3 {
+    width: 10000px; /* устанавливаем большую ширину для набора элементов карусели, чтобы в неё всё поместилось */
+    position: relative; /* позиционируем блок относительно основной области карусели */
+}
+.b-carousel-block3 {
+    float: left; /* выстраиваем все элементы карусели в ряд */
+    width: 390px; /* задаём ширину каждого элемента */
+
+}
+.a-carousel-image-link3 { /* тут чисто оформление содержимого */
+    display: block;
+    width: 390px;
+    margin: 0;
+    overflow: hidden;
+}
+.b-carousel-button-left3, .b-carousel-button-right3 {
+    float: right;
+    font-size: 40px;
+    color: #f5b039;
+    position: relative;
+    padding:15px 20px 0 0;
+    cursor: pointer; /* делаем кнопкам курсор в виде "пальца" */
+}
+.carousel-text3{
+    margin-left:37%;
+}
+#recentlyViewed{
+    float: left;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color:#a6a39f;
+    padding: 25px 0 20px 10px;
+    clear: both;
+}
+#recentlyViewed,.b-carousel-button-right3,.b-carousel-button-left3{
+    padding-top: 0;
+}
+.a-carousel-image-link3{
+    margin-top: 10px;
+}
+
+.priceCarousel3{
+    font-size: 36px;
+    font-weight: 300;
+    float: left;
+    color: #030303;
+    padding: 20px 0 30px 30px ;
+}
+.a-carousel-image-link3 span{
+     font-size: 20px;
+    padding: 20px 0 0 10px;
+    font-weight: 300;
+    float: left;
+ }
+
+.inBasketBuy{
+    text-decoration: none;
+    cursor: pointer;
+    float: right;
+    font-size: 22px;
+    padding: 5px 15px 5px 15px;
+    margin: 30px 20px 0 0;
+    color: #ffffff;
+    background-color: #f5b039;
+}
+.inBasketBuy:active{
+    cursor: pointer;
+    background-color: #f0a40f;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.8);
+}
+.priceOld{
+    position: absolute;
+    padding-top: 5px;
+    margin-left: 25px;
+    font-size: 14px;
+    color: #a6a39f;
+    text-decoration: line-through;
+}
+.descriptionPrice{
+    clear: both;
+    font-size: 14px;
+    color: #a6a39f;
+    width: 90%;
+    text-align: justify;
+    line-height: 25px;
+    margin-bottom: 35px;
+}
+hr{
+    clear: both;
+}
+footer{
+    margin: 90px 0 100px 0;
+}
+footer .menu_1{
+    width: 60%;
+}
+.brandFooter{
+    margin-top:70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.footerContact{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 75px;
+
+}
+.footerContactText{
+    text-align: left;
+    font-size: 18px;
+    color: #030303;
+    line-height: 30px;
+}
+.socialNetwork{
+    display: flex;
+    justify-content: space-between;
+}
+
+.socialNetwork i{
+    margin-top: 15px;
+    color: #8f8c86;
+    font-size: 30px;
+    border: 3px solid #8f8c86;
+    border-radius: 8px;
+    height: 36px;
+    width: 36px;
+    text-align: center;
+}
